@@ -1,0 +1,21 @@
+src/
+├── config/
+│   └── siteConfig.ts          # Central configuration (WhatsApp, contact info, services, packages)
+├── components/
+│   ├── layout/
+│   │   ├── Navbar.tsx         # Responsive sticky header with quote trigger
+│   │   └── Footer.tsx         # Brand links, legal, contact details & quick actions
+│   ├── sections/
+│   │   ├── Hero.tsx           # Floating tech visuals, circuit patterns, dual CTAs
+│   │   ├── Solutions.tsx      # IT/Cloud, Web/Digital, Automation/Integration, Creative/Media
+│   │   ├── Packages.tsx       # START, GROW, AUTOMATE, CREATE outcome-based cards
+│   │   ├── WhyKagisoTech.tsx # Trust factors & core business positioning
+│   │   ├── HowItWorks.tsx     # 4-step execution flow (Tell us -> Understand -> Build -> Support)
+│   │   ├── Creative.tsx       # Showcase grid for event/corporate video & digital media
+│   │   ├── About.tsx          # Authentic South African tech enablement narrative
+│   │   └── Contact.tsx        # Interactive quote request form & direct contact options
+│   └── ui/
+│       ├── FloatingWhatsApp.tsx # Fixed corner WhatsApp launcher with dynamic templates
+│       └── AIAssistant.tsx      # 3D-styled floating AI concierge frontend widget
+└── pages/
+    └── index.tsx              # Main high-conversion landing page layout
